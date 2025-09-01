@@ -1,4 +1,4 @@
-const meta = 550000;
+const meta = 700000;
 
 // Pega valor armazenado ou inicia com 0
 let arrecadado = parseFloat(localStorage.getItem("arrecadado")) || 0;
@@ -44,3 +44,4 @@ function adicionarValor() {
 
 // inicializa a barra ao carregar a página
 atualizarBarra();
+
